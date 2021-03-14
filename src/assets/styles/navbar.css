@@ -1,0 +1,11 @@
+img{
+  display: inline-block;
+  margin: 10px 0;
+}
+
+h4{
+  display: inline-block;
+  vertical-align: top;
+  color: #05558c;
+  margin: 14px 4px;
+}

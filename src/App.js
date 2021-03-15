@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from 'Components/Navbar'
 import ClientBody from 'Components/ClientBody'
@@ -9,7 +8,7 @@ function App() {
       <nav className="grey lighten-2">
         <Navbar />
       </nav>
-      <section>
+      <section className="main">
         <ClientBody />
       </section>
     </div>

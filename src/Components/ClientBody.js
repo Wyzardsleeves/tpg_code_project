@@ -1,6 +1,6 @@
 import React from 'react'
 import EntryList from './EntryList'
-import EntryShow from './EntryShow'
+import EntryShow from './EntryShow.js'
 import {Switch, Route} from 'react-router-dom'
 
 const ClientBody = () => {

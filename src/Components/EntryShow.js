@@ -99,7 +99,7 @@ const EntryShow = (props) => {
                   <h6>Total Points: {points}</h6>
                   <h6>Total Points Value: ${(parseFloat(points * selectedEntry.tpg_valuation)).toFixed(2)}</h6>
                   <h6 style={{padding: "0 0 25px 0"}}>Points with Fees: ${(parseFloat(points * selectedEntry.tpg_valuation) + parseFloat(fees)).toFixed(2)}</h6>
-                  <span><img src={tpg} height={40} style={{margin: 0}} /><h4 style={{margin: "5px", display: "inline-block", color: "black"}}>'s choice: {choice}</h4></span>
+                  <span><img src={tpg} height={40} style={{margin: 0}} alt={"tpg-logo.png"} /><h4 style={{margin: "5px", display: "inline-block", color: "black"}}>'s choice: {choice}</h4></span>
                 </div>
                 <div className="row">
                   <div className="col m4 center points">

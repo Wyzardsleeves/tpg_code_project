@@ -4,6 +4,20 @@ html{
 
 }
 
+.no-squash{
+  object-fit:cover;
+}
+
+.rotate45{
+  transform: rotate(45deg);
+}
+.rotate135{
+  transform: rotate(135deg);
+}
+.rotate180{
+  transform: rotate(180deg);
+}
+
 .main{
   padding-top: 20px;
 }
@@ -12,6 +26,21 @@ card-title{
   padding-top: 0
 }
 
+.points, .cash{
+  color: white;
+  border-radius: 15px
+}
+.cash{
+  background-color: #65c56d;
+}
+.points{
+  background-color: #46cdf7;
+}
+
+.pad-mar-zero{
+  padding: 20px 0;
+  margin: 0;
+}
 /*
 font-family: 'Teko', sans-serif;
 font-family: 'Yanone Kaffeesatz', sans-serif;

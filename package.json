@@ -23,7 +23,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://wyzardsleeves.github.io/tpg_code_project/",
   "eslintConfig": {
     "extends": [
       "react-app",

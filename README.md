@@ -1,7 +1,5 @@
 # The Points Guy Project
 
-This project can be viewed on [My Github via GH-Pages](https://wyzardsleeves.github.io/tpg_code_project/)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Booting the up application

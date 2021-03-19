@@ -1,5 +1,6 @@
 import React from 'react'
 import stockData from 'assets/data/loyalty.json'
+import results from 'assets/data/loyalty.js'
 import Moment from 'react-moment'
 import hotel from 'assets/images/hotel.jpg'
 import plane from 'assets/images/plane.jpg'
@@ -8,7 +9,8 @@ import defaultImage from 'assets/images/defaultBackground.jpg'
 import {Link} from 'react-router-dom'
 
 const EntryList = () => {
-
+    console.log(results);
+    
     const parseImage = (entry) => {
       switch(entry) {
         case "airline":

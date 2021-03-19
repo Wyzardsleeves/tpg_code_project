@@ -32,16 +32,16 @@ const EntryShow = (props) => {
 
   const updateChoice = (e) => {
     let tpg_valuation = selectedEntry.tpg_valuation;
-    if(parseFloat(points * tpg_valuation) > price && tpg_valuation < 1){
+    if(parseFloat(points * tpg_valuation) + parseFloat(fees) > price && tpg_valuation < 1){
       setChoice("Use Points")
     }
-    else if(parseFloat(points * tpg_valuation) > price && tpg_valuation >= 1){
+    else if(parseFloat(points * tpg_valuation) + parseFloat(fees) > price && tpg_valuation >= 1){
       setChoice("Definitely use Points!!")
     }
-    else if(parseFloat(points * tpg_valuation) < price && tpg_valuation >= 1){
+    else if(parseFloat(points * tpg_valuation) + parseFloat(fees) < price && tpg_valuation >= 1){
       setChoice("Use Cash")
     }
-    else if(parseFloat(points * tpg_valuation) < price && tpg_valuation < 1){
+    else if(parseFloat(points * tpg_valuation) + parseFloat(fees) < price && tpg_valuation < 1){
       setChoice("Definitely use Cash!")
     }
   }
